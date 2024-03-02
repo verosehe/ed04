@@ -8,7 +8,7 @@ import java.util.List;
  * @version 2.0
  *
  */
-class Contacto {
+class Persona {
     /**
      * Nombre del contacto
      */
@@ -31,7 +31,7 @@ class Contacto {
      * @param name establece el nombre del contacto.
      * @param phone guarda el teléfono correspondiente al nombre del contacto
      */
-    public Contacto(String name, String phone) {
+    public Persona(String name, String phone) {
         this.name = name;
         this.phones = new ArrayList<>();
         this.phones.add(phone);
