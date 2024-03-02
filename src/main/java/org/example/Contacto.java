@@ -1,13 +1,13 @@
 package org.example;
+
+import java.util.ArrayList;
+import java.util.List;
 /**
  * La clase Contacto permite crear contactos de teléfono con un nombre asociado.
  * @author Veronica
  * @version 2.0
  *
  */
-import java.util.ArrayList;
-import java.util.List;
-
 class Contacto {
     /**
      * Nombre del contacto
