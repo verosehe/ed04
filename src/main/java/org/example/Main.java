@@ -1,5 +1,7 @@
 package org.example;
-
+/**
+ * Programa que utiliza la clase {@link Agenda} para generar contactos.
+ */
 public class Main {
     public static void main(String[] args) {
         // Crear una nueva agenda.
