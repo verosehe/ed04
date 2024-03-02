@@ -17,6 +17,15 @@ class Contacto {
      * Lista que almacena números de teléfono
      */
     private List<String> phones;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhones(List<String> phones) {
+        this.phones = phones;
+    }
+
     /**
      * Crea un nuevo contacto teléfonico o añade un nuevo teléfono a un contacto ya existente.
      * @param name establece el nombre del contacto.
